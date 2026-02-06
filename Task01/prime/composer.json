@@ -1,0 +1,20 @@
+{
+    "name": "darkflade/prime",
+    "authors": [
+        {
+            "name": "darkflade",
+            "email": "dodgesrt7775@gmail.com"
+        }
+    ],
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.7"
+    },
+    "bin": ["bin/prime"],
+    "autoload": {
+        "files": [
+            "src/Controller.php",
+            "src/View.php",
+            "src/Model.php"
+        ]
+    }
+}
